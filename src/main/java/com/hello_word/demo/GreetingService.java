@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class GreetingService {
 
-	private final String MENSAJE = "Hola Mundo"; 
+	private static final String MENSAJE = "Hola Mundo"; 
 
 
 	public String helloWord(){
